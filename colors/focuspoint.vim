@@ -26,7 +26,7 @@ hi Boolean        guifg=#CD5C5C
 hi Character      guifg=#E6DB74
 hi Number         guifg=#CD5C5C
 hi String         guifg=#E6DB74 guibg=#242829
-hi Conditional    guifg=#43AB59 gui=bold
+hi Conditional    guifg=#19618c gui=bold
 hi Constant       guifg=#CD5C5C gui=bold
 hi Cursor         guifg=#000000 guibg=#F8F8F0
 hi Debug          guifg=#BCA3A3 gui=bold
@@ -39,7 +39,7 @@ hi DiffText       guibg=#4C4745 gui=italic,bold
 
 hi Directory      guifg=#d1c79e gui=bold
 hi Error          guifg=#CD5C5C guibg=#571F1F
-hi ErrorMsg       guifg=#43AB59 guibg=#232526 gui=bold
+hi ErrorMsg       guifg=#19618c guibg=#232526 gui=bold
 hi Exception      guifg=#d1c79e gui=bold
 hi Float          guifg=#CD5C5C
 hi FoldColumn     guifg=#465457 guibg=#000000
@@ -49,7 +49,7 @@ hi Identifier     guifg=#BD8F2E
 hi Ignore         guifg=#808080 guibg=bg
 hi IncSearch      guifg=#C4BE89 guibg=#000000
 
-hi Keyword        guifg=#43AB59 gui=bold
+hi Keyword        guifg=#19618c gui=bold
 hi Label          guifg=#E6DB74 gui=none
 hi Macro          guifg=#C4BE89 gui=italic
 hi SpecialKey     guifg=#71ABC2 gui=italic
@@ -57,22 +57,22 @@ hi SpecialKey     guifg=#71ABC2 gui=italic
 hi MatchParen     guifg=fg      guibg=#455354 gui=bold
 hi ModeMsg        guifg=#E6DB74
 hi MoreMsg        guifg=#E6DB74
-hi Operator       guifg=#43AB59
+hi Operator       guifg=#19618c
 
 " complete menu
 hi Pmenu          guifg=#F8F8F2 guibg=#465457
-hi PmenuSel       guifg=#232526 guibg=#43AB59
-hi PmenuSbar      guibg=#43AB59
+hi PmenuSel       guifg=#232526 guibg=#19618c
+hi PmenuSbar      guibg=#19618c
 hi PmenuThumb     guifg=#F8F8F2
 
 hi PreCondit      guifg=#d1c79e gui=bold
 hi PreProc        guifg=#d1c79e
 hi Question       guifg=#71ABC2
-hi Repeat         guifg=#43AB59 gui=bold
+hi Repeat         guifg=#19618c gui=bold
 hi Search         guifg=#FFFFFF guibg=#455354
 " marks column
 hi SignColumn     guifg=#d1c79e guibg=#232526
-hi SpecialChar    guifg=#43AB59 guibg=#242829 gui=bold
+hi SpecialChar    guifg=#19618c guibg=#242829 gui=bold
 hi SpecialComment guifg=#465457 gui=bold
 hi Special        guifg=#71ABC2 guibg=bg      gui=italic
 hi SpecialKey     guifg=#888A85 gui=italic
@@ -82,12 +82,12 @@ if has("spell")
     hi SpellLocal guisp=#70F0F0 gui=undercurl
     hi SpellRare  guisp=#FFFFFF gui=undercurl
 endif
-hi Statement      guifg=#43AB59 gui=bold
+hi Statement      guifg=#19618c gui=bold
 hi StatusLine     guifg=#455354 guibg=fg
 hi StatusLineNC   guifg=#7F7F7F guibg=#232526
 hi StorageClass   guifg=#BD8F2E gui=italic
 hi Structure      guifg=#71ABC2
-hi Tag            guifg=#43AB59 gui=italic
+hi Tag            guifg=#19618c gui=italic
 hi Title          guifg=#FFC66D
 hi Todo           guifg=bg      guibg=#71ABC2 gui=underline,bold
 
